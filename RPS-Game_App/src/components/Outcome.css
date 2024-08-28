@@ -1,0 +1,48 @@
+.outcome-container {
+    text-align: center;
+    margin-top: 16px;
+  }
+  
+  .outcome-alert {
+    border-radius: 12px;
+    margin-bottom: 16px;
+    background-color: #444;
+    color: #fff;
+  }
+  
+  .outcome-alert.success {
+    background-color: #28a745;
+  }
+  
+  .outcome-alert.error {
+    background-color: #dc3545;
+  }
+  
+  .outcome-alert.info {
+    background-color: #17a2b8;
+  }
+  
+  .choice-display {
+    margin-top: 20px;
+  }
+  
+  .choice-card {
+    background-color: #333;
+    color: #fff;
+    border-radius: 12px;
+    padding: 16px;
+    font-size: 1.5em;
+  }
+  
+  .user-choice {
+    border: 2px solid #ff6f61;
+  }
+  
+  .computer-choice {
+    border: 2px solid #4caf50;
+  }
+  
+  .choice-content {
+    font-weight: bold;
+  }
+  

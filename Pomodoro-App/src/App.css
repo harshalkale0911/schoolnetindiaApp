@@ -1,0 +1,94 @@
+ /* App.css */
+
+/* Layout styling */
+.app-layout {
+  min-height: 100vh;
+  background-color: #f0f2f5; /* Light grey background */
+}
+
+/* Header styling */
+.header {
+  background-color: #001529; /* Dark blue color */
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Content styling */
+.content {
+  padding: 50px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Typography styling */
+.ant-typography {
+  color: #1890ff; /* Ant Design primary color */
+  font-weight: bold;
+}
+
+/* Space component alignment */
+.ant-space {
+  text-align: center;
+}
+
+/* TimerDisplay styling */
+.timer-display {
+  font-size: 48px;
+  font-weight: bold;
+  color: #001529; /* Dark blue */
+}
+
+/* ProgressIndicator styling */
+.progress-indicator {
+  width: 100%;
+  max-width: 300px;
+}
+
+/* StartStopButton styling */
+.start-stop-button {
+  background-color: #1890ff; /* Ant Design primary color */
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.start-stop-button:hover {
+  background-color: #40a9ff; /* Lighter shade for hover */
+}
+
+/* ResetButton styling */
+.reset-button {
+  background-color: #ff4d4f; /* Ant Design error color */
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.reset-button:hover {
+  background-color: #ff7875; /* Lighter shade for hover */
+}
+
+/* SessionSettings styling */
+.session-settings {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.session-settings .ant-input-number {
+  width: 70px;
+  margin-left: 10px;
+}

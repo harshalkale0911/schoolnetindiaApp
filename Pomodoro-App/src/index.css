@@ -1,0 +1,35 @@
+ 
+ 
+.app-layout {
+  min-height: 100vh;
+  background-color: #f0f2f5; /* Light grey background */
+}
+
+/* Header styling */
+.header {
+  background-color: #c1cad3; /* Dark blue color */
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Content styling */
+.content {
+  padding: 50px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Typography styling */
+.ant-typography {
+  color: #1890ff;  
+  font-weight: bold;
+}
+
+ 
+.ant-space {
+  text-align: center;
+}

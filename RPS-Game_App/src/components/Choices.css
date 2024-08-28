@@ -1,0 +1,20 @@
+.choices-container {
+    text-align: center;
+  }
+  
+  .choice-button {
+    background-color: #333;
+    color: #fff;
+    border: 2px solid #ff6f61;
+    font-size: 18px;
+    padding: 12px 24px;
+    margin: 4px;
+  }
+  
+  .choice-button:hover,
+  .choice-button:focus {
+    background-color: #ff6f61;
+    color: #fff;
+    border-color: #ff6f61;
+  }
+  

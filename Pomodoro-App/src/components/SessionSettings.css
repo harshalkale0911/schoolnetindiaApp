@@ -1,0 +1,14 @@
+
+.session-settings {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    margin-top: 10px;
+}
+
+.session-settings .ant-input-number {
+    width: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
